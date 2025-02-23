@@ -7,7 +7,7 @@ from YOLO11Segmentation import YOLOv11Segmentation
 model = YOLOv11Segmentation("yolo11n-seg.pt")
 
 # Load an image
-image_path = "/home/parth/Desktop/Project/Frustum/KITTI_DATASET/training/image_2/001000.png"  # Change to actual path
+image_path = "YOUR PATH TO THE IMG"  # Change to actual path
 image = cv2.imread(image_path)
 
 if image is None:
